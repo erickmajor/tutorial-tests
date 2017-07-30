@@ -1,6 +1,12 @@
 <?php
 
-class DependencyFailureTest extends PHPUnit_Framework_TestCase
+declare(strict_types=1);
+
+namespace ApplicationPHPUnit\Chapter2;
+
+use PHPUnit\Framework\TestCase;
+
+class Test03DependencyFailureTest extends TestCase
 {
     public function testOne()
     {

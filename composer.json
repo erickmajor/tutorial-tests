@@ -1,8 +1,15 @@
 {
-    "require-dev": {
+    "autoload": {
+        "psr-4": {
+            "ApplicationPHPUnit\\": "phpunit/manual",
+            "ApplicationPHPUnit\\Chapter2\\": "phpunit/manual/Chapter2"
+        }
+    },
+    "require --c-dev": {
         "phpunit/phpunit": "5.5.*",
         "phpunit/php-invoker": "*",
         "phpunit/dbunit": ">=1.2",
-        "phpunit/phpunit-selenium": ">=1.2"
-    }
+        "phpunit/phpunit-selenium": ">=1.2",
+        "johnkary/phpunit-speedtrap": "*"
+      }
 }
